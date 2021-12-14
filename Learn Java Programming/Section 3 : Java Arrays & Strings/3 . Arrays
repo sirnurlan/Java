@@ -19,10 +19,29 @@ public class SingleDimArrayDemo {
 		a[3]=400;
 		a[4]=500; */
 		
-		int a[]= {100,200,300,400,500};  // Declare array without specifying size-Dynamic array
-		
-		System.out.println(a.length);  // Size of an array
-		
+//		int a[]= {100,200,300,400,500};  // Declare array without specifying size-Dynamic array
+//		
+//		System.out.println(a.length);  // Size of an array
+//		System.out.println("----------------------");
+//		
+//		System.out.println(a[2]);  // Extracts specific value from array		
+//		System.out.println("----------------------");
+//		// classic  
+//		
+////		for(int i=0; i<a.length; i++)  // They are the same;
+//		for(int i=0; i<=a.length-1; i++) {
+//			
+//			System.out.println(a[i]);  // 100 200 300 400 500 
+//			
+//			
+//			
+//		}
+		// for each loop / Enhanced for loop
+		int a[]= {100,200,300,400,500};
+		for(int i:a) {  // 100, 200,300, 400, 500
+			
+			System.out.println(i);
+		}
 
 	}
 
